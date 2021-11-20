@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  api-for-docker:
+    build: .
+    image: 8-slim
+    ports:
+      - '9999:9999'
